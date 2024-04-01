@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Este Site visa em ajudar a todos aqueles que não possuem o maior controlo de seu cachorro, oferecendo assim possibilidades para cuidar ele em nossa veterinaria">
+    <meta name="author" content="Dennis Camela">
+
+    <!-- links-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="img/patas.png">
+    <!-- ---------------------------- -->
+    <title>HDogs</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#menu">
+
+    <!-- Criando a barra de navegacao -->
+    <div class="container">
+
+        <header class=" bg-light d-flex flex-wrap justify-content-center py-4 mb-4 sticky-top">
+
+            <a href="/"
+                class="text-primary d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <span class="fs-3 fw-bold" _msttexthash="336609" _msthash="8">
+                    <i class="mdi mdi-dog"></i> HDogs</span>
+            </a>
+
+            <ul class="nav nav-pills" id="menu">
+
+                <!-- Modo escuro -->
+                <div class="form-check form-switch ms-auto mt-3 me-3">
+                    <label class="form-check-label ms-3" for="lightSwitch" id="modo">
+                      <i class="mdi mdi-weather-sunny"></i>
+                        <path
+                          d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                        />
+                      </svg>
+                    </label>
+                    <input class="form-check-input" type="checkbox" id="lightSwitch" />
+                  </div>
+
+                <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page" _msttexthash="42250"
+                        _msthash="9">Inicial</a></li>
+                <li class="nav-item"><a href="#servicos" class="nav-link" _msttexthash="313612" _msthash="10">Serviços</a></li>
+                <li class="nav-item"><a href="#preco" class="nav-link" _msttexthash="253617" _msthash="11">Preços</a></li>
+                <li class="nav-item"><a href="#faq" class="nav-link" _msttexthash="422409" _msthash="12">FAQ</a></li>
+                <li class="nav-item"><a href="#contactos" class="nav-link" _msttexthash="59826" _msthash="13">Contacto</a></li>
+            </ul>
+        </header>
+        <!-- Fim Barra de navegacao -->
+
+        <!-- Comecando a section principal -->
+        <section class="my-5 py-3" id="home">
+
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 class="fs-6 fw-300 "> Aqui o seu cachorro é muito bem tratado</h2>
+                    <h1 class="fw-bold display-4 animate__animated animate__pulse">Clínica Veterinária</h1>
+                    <p class="text-muted">Todos sabemos que os animais vivem menos do que nós humanos, cada ano de vida do animal equivale a aproximadamente 07 anos humanos. Por isso, trabalhar com a medicina preventiva se torna uma ótima forma de aumentar o tempo de vida de seu animal, com qualidade. </p>
+
+                    <a href="#" class="btn btn-primary mt-4 w-50 p-2">Agendar Consulta <i
+                            class="mdi mdi-arrow-right-thick"></i></a>
+                </div>
+                <div class="col-md-6">
+
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                        type="module"></script>
+                    <dotlottie-player src="https://lottie.host/907f5366-cc0b-44d5-b2e8-479aa4437122/gXRqIWRSJi.json"
+                        background="transparent" speed="1" style="width: 300px; height: 300px; text-align:center;"
+                        direction="1" playMode="normal" loop autoplay class="m-0 m-auto"></dotlottie-player>
+                </div>
+            </div>
+        </section>
+        <!-- Final da section principal -->
+
+        <!-- Começando com a segunda secton -->
+        <section id="servicos" class="text-center my-5 py-5">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class=" fw-bold mt-5 ">Serviços Prestado</h2>
+                </div>
+            </div>
+
+            <div class="row mt-4 animate__animated animate__lightSpeedInLeft ">
+                <div class="col-md-4 mb-5">
+                   <img src="img/vacinad.png" alt="" class="rounded-circle border shadow p-5 ">
+                    <h2 class="fw-normal py-2" _msttexthash="92768" _msthash="29">Vacinação</h2>
+                   
+                    <p class="fs-6 text-center">Apesar de algumas pessoas se mostrarem contra a vacinação é uma medida preventiva com eficácia comprovada e extremamente importante para a saúde do dog e de todas as pessoas que convivem com ele...</p>
+
+                    <p><a class="btn btn-secondary" href="https://www.hospitalpopularveterinario.com.br/2020/06/04/a-importancia-da-consulta-clinica-veterinaria-para-o-seu-pet" _msttexthash="223717" _msthash="31">Ver detalhes »</a></p>
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-md-4 mb-5">
+                   <img src="img/saude.png" alt="" class="rounded-circle border shadow p-5">
+                    <h2 class="fw-normal py-2" _msttexthash="92768" _msthash="34">Emergência</h2>
+                    <p class="fs-6 text-justify">As situações de emergência veterinária são frequentes no nosso quotidiano. Acidentes de viação, mordeduras por outros animais, ingestão de tóxicos, são alguns exemplos de situações que exigem atuação rápida...</p>
+                    <p><a class="btn btn-secondary" href="https://hvatlantico.pt/como-proceder-em-caso-de-emergencia-com-o-seu-animal/" _msttexthash="223717" _msthash="36">Ver detalhes »</a></p>
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-md-4 mb-5">
+                   <img src="img/raio-x.png" alt="Erro ao carregar o servico 3" class="rounded-circle border shadow p-5">
+                    <h2 class="fw-normal py-2" _msttexthash="92768" _msthash="39">Raio X</h2>
+                    <p class="fs-6"> O exame do raio X é usado para ver “por dentro” do corpo do seu pet e vem sendo utilizado a mais de 30 anos no diagnóstico veterinário. A grosso modo, ele fotografa o animal, como uma diferença, fotografa por dentro...</p>
+                    <p><a class="btn btn-secondary" href="https://www.vetmetodo.com.br/raio-x-caes-gatos/" _msttexthash="223717" _msthash="41">Ver detalhes »</a></p>
+                </div><!-- /.col-lg-4 -->
+
+            </div>
+        </section>
+        <!-- Fim da segunda section -->
+
+        <!-- Sections dos precos -->
+        <section id="preco" class="my-5 py-5">
+
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h2 class="fw-bold mt-5">Precificação</h2>
+                <p class="fs-6 pt-4" _msttexthash="23140780" _msthash="14">O Preço por hora de serviços de Veterinários varia entre 60,000Kz - 120,000Kz. Faça aqui o seu pedido online e complete o seu projecto hoje! Os nossos especialistas e empresas fazem o melhor preço. Descubra já quanto custa um orçamento para Veterinários!</p>
+              </div>
+
+              <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal" _msttexthash="47567" _msthash="22">Semana</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title" _msttexthash="92209" _msthash="23">15<small class="text-body-secondary fw-light" _istranslated="1">000,00</small></h1>
+                      <h1 class="card-title pricing-card-title" _msttexthash="92209" _msthash="23">Kwz</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li _msttexthash="477061" _msthash="24">Animal: Cão       
+                          </li>
+                        <li _msttexthash="401752" _msthash="25">  Número de animais: 1</li>
+                        <li _msttexthash="769808" _msthash="26">Peso dos animais: 3 - 5 kg</li>
+                        <li _msttexthash="488280" _msthash="27">Acesso à Central de Ajuda</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-primary" _msttexthash="110955" _msthash="28">Começar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal" _msttexthash="47567" _msthash="22">Mês</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title" _msttexthash="92209" _msthash="23">60<small class="text-body-secondary fw-light" _istranslated="1">000,00</small></h1>
+                      <h1 class="card-title pricing-card-title" _msttexthash="92209" _msthash="23">Kwz</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li _msttexthash="477061" _msthash="24">Animal: Cão       
+                        </li>
+                        <li _msttexthash="401752" _msthash="25">  Número de animais: 1</li>
+                        <li _msttexthash="769808" _msthash="26">Peso dos animais: 3 - 5 kg</li>
+                        <li _msttexthash="488280" _msthash="27">Acesso à Central de Ajuda</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-primary" _msttexthash="110955" _msthash="28">Começar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal" _msttexthash="47567" _msthash="22">Ano</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title" _msttexthash="92209" _msthash="23">120<small class="text-body-secondary fw-light" _istranslated="1">000,00</small></h1>
+                      <h1 class="card-title pricing-card-title" _msttexthash="92209" _msthash="23">Kwz</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li _msttexthash="477061" _msthash="24">Animal: Cão       
+                        </li>
+                        <li _msttexthash="401752" _msthash="25">  Número de animais: 1</li>
+                        <li _msttexthash="769808" _msthash="26">Peso dos animais: 3 - 5 kg</li>
+                        <li _msttexthash="488280" _msthash="27">Acesso à Central de Ajuda</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-primary" _msttexthash="110955" _msthash="28">Começar</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+        </section>
+        <!-- Fim das sections dos precos -->
+
+        <!-- Perguntas frequentes -->
+        <section id="faq" class="my-5 py-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="fw-bold mt-5">Perguntas Frequentes</h2>
+                </div>
+
+                <div class="col-md-12 text-center">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                       
+                      <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Qual é a importância de fazer uma  consulta veterinária para o seu dog?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Quantas vezes por ano você vai fazer aquele check-up? ou vai em uma consulta no seu médico para saber se está tudo bem com você?
+
+                              Este é o ponto, nós humanos vamos frequentemente no médico realizar principalmente exames específicos, para a visão, coração e outros, e pessoas mais cuidadosas fazem check-up de seis em seis meses ou anualmente.
+                              
+                              Com os nossos pets não é diferente, eles também precisam de um check-up veterinário.</div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              O que é o check-up veterinário?
+
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">O check-up é uma consulta realizada de maneira periódica, com foco na prevenção.
+
+                              É um acompanhamento que proporciona o bem estar do seu pet – e da sua família. Durante o check-up, os exames, as vacinas e a vermifugação são colocados em dia.</div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseT" aria-expanded="false" aria-controls="flush-collapseT">
+                              As principais doenças a serem avaliadas!
+                            </button>
+                          </h2>
+                          <div id="flush-collapseT" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Alergias
+
+                              As principais doencas que mais são avaliadas em nossa veterinária são:Atrites/Artroses,  Câncer, Cistite, Doenças cardiovasculares, Doenças periodontais.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Qual a frequência ideal da consulta veterinária?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> A frequência da consulta vai depender basicamente da idade do seu pet e da orientação do profissional que o acompanha...</div>
+                          </div>
+                        </div>
+
+                      </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Fim perguntas frequentes -->
+
+        <!-- Section dos contactos -->
+        <section id="contactos" class="my-5 py-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="fw-bold my-5">Contacto</h2>
+                </div>
+            </div>
+
+            <div class="row align-items-md-stretch text-center">
+                <div class="col-md-6">
+                  <div class="h-100 p-5 rounded-3 bg-body-tertiary">
+                    <h2 _msttexthash="455715" _msthash="11">Fale Conosco</h2>
+                    <p _msttexthash="20077070" _msthash="12">Veja no mapa a nossa área de actuação. Se a sua morada for próxima mas não estiver presente na zona abrangida por favor contacte-nos de modo a confirmar a possibilidade de deslocação.</p>
+                    <p> <i class="mdi mdi-phone"></i>(+244) 953 - 266 - 447</p>
+                    <p> <i class="mdi mdi-email"></i> <a href="www.gmail.com" class="text-decoration-none text-dark">dinicamela5@gmail.com </a></p>
+
+                    <button class="btn btn-outline-dark p-3" type="button" _msttexthash="220324" _msthash="13">Via Whatsapp <i class="mdi mdi-whatsapp"></i></button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <p _msttexthash="36038093" _msthash="15">Angola,cLuanda município de Cacuaco</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.0681905384936!2d13.318536274245405!3d-8.77965519127204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f167d3286947%3A0x35bf23bbace9a65a!2sVILA%20DE%20CACUACO!5e0!3m2!1spt-PT!2sao!4v1711649677564!5m2!1spt-PT!2sao" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded m-0 m-auto"></iframe>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Fim contactos -->
+
+    </div><!-- Fim do container principal -->
+
+
+    <!-- Criando o nosso rodape -->
+    <footer class=" bg-light m-0 p-5">
+        <hr>
+        <div class="container">
+        <p class="float-end"><a href="#" _msttexthash="211770" _msthash="57"><i class="mdi mdi-arrow-up-thick fs-4"></i></a>
+        </p>
+
+        <a href="/"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-primary">
+        <span class="fs-3 fw-bold" _msttexthash="336609" _msthash="8">
+            <i class="mdi mdi-dog"></i> HDogs</span>
+    </a>
+        <p _msttexthash="2714959" _msthash="58" class="text-center">© 2024-2025 Todos os directos reservados.</p>
+        <p class="text-center"><a href="#" _istranslated="1">Política de Privacidade</a></p>
+    </div>
+      </footer>
+    <!-- Final do rodape -->
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/switch.js"></script>
+</body>
+
+</html>
